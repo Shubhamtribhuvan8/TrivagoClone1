@@ -1,14 +1,10 @@
-const http = require('http');
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json'); // <== Will be created later
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3200; // <== You can change the port
 
-const hostname = '127.0.0.1';
-const port = 3000;
+server.use(middlewares);
+server.use(router);
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+server.listen(port);
