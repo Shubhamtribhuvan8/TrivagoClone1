@@ -20,5 +20,6 @@
   "homepage": "https://github.com/Shubhamtribhuvan8/TrivagoClone1#readme",
   "dependencies": {
     "json-server": "^0.17.1"
-  }
+  },
+  "keywords": []
 }
