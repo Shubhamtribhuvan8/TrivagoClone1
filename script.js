@@ -59,7 +59,7 @@ form1.addEventListener('ontype()', event=> {
 });
 
 function searchCity1(city) {
-    const endpoint = 'http://localhost:3000/posts';
+    const endpoint = 'https://vast-gold-panda-sari.cyclic.app/posts';
     const params = {
         city: city,
     };
@@ -119,7 +119,7 @@ form2.addEventListener('submit', event => {
 });
 
 function searchCity2(city) {
-    const endpoint = 'http://localhost:3000/posts';
+    const endpoint = 'https://vast-gold-panda-sari.cyclic.app/posts';
     const params = {
         city: city,
     };

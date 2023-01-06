@@ -11,7 +11,7 @@ function closeNav() {
 //Main
 let alldata;
 async function load() {
-    let res = await fetch("http://localhost:3000/posts");
+    let res = await fetch("https://vast-gold-panda-sari.cyclic.app/posts");
     let data = await res.json();
     // console.log(data[0].OneWayAvailabilityResponse.ItinearyDetails[0].Items[0].FlightDetails[0].OriginAirportName);
     alldata=data[0].OneWayAvailabilityResponse.ItinearyDetails[0].Items;
@@ -186,7 +186,7 @@ form1.addEventListener('ontype()', event => {
 });
 
 function searchCity1(city) {
-    const endpoint = 'http://localhost:3000/posts';
+    const endpoint = 'https://vast-gold-panda-sari.cyclic.app/posts';
     const params = {
         city: city,
     };
@@ -246,7 +246,7 @@ form2.addEventListener('ontype()', event => {
 });
 
 function searchCity2(city) {
-    const endpoint = 'http://localhost:3000/posts';
+    const endpoint = 'https://vast-gold-panda-sari.cyclic.app/posts';
     const params = {
         city: city,
     };
