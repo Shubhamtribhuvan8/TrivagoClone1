@@ -8512,7 +8512,7 @@
                       "Origin": "BOM",
                       "Destination": "SIN",
                       "FlightNum": "423",
-                      "DepartureDateTime": "6:00",
+                      "DepartureDateTime": "06:00",
                       "ArrivalDateTime": "12:52",
                       "Duration": "330",
                       "OrgTerminal": "2",
