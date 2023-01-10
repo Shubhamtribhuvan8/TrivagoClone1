@@ -22,17 +22,13 @@ h1 {
     align-items: center;
     justify-content: flex-start;
     gap: 68px;
-    margin-left: 3%;
 }
 
 #maininputbox {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
-    margin-left: 3%;
-    margin-top: 1%;
-    position: relative;
+    gap: 44px;
 }
 
 input {
@@ -74,7 +70,7 @@ h2 {
     padding: 20px;
     display: none;
     overflow-y: scroll;
-    height: 70vh;
+    height: 60vh;
     box-shadow: 0px 0px 20px grey;
     text-align: center;
     font-size: revert;
@@ -91,77 +87,15 @@ h2 {
     padding: 20px;
     display: none;
     overflow-y: scroll;
-    height: 70vh;
+    height: 60vh;
     box-shadow: 0px 0px 20px grey;
     text-align: center;
     font-size: revert;
     font-weight: bold;
     color: sienna;
-    margin-left: 23%;
+    margin-left: 25%;
 }
-
-#main {
-    display: flex;
-    width: 1110px;
-    margin: 15px;
-    /* gap: 44px; */
-    justify-content: space-around;
-}
-
-.card {
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 0px 20px grey;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-#left {
-    width: 251px;
-    margin-left: 2%;
-}
-
-#right {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.logo {
-    width: 130px;
-}
-
-#card {
-    text-align: center;
-    width: 628px;
-    line-height: 75px;
-    margin-top: 4%;
-    height: 185px;
-    box-shadow: 0px 0px 15px gray;
-    border-radius: 8px;
-}
-
-p {
-    margin-top: 10px;
-    font-size: 11px;
-}
-
-#parent {
-    margin-top: 5%;
-
-}
-
-#card1 {
-    text-align: center;
-    width: 628px;
-    line-height: 75px;
-    margin-top: 4%;
-    height: 185px;
-    box-shadow: 0px 0px 15px gray;
-    border-radius: 8px;
-}
-
+/* Side currency */
 .transaction_parent {
     display: flex;
     background-color: white;
@@ -234,79 +168,6 @@ h3 {
     font-size: initial;
     font-weight: bold;
 }
-
-/* Left part */
-.left11{
-    line-height: 1px;
+#footer{
+    margin-top: 20%;
 }
-.stops{
-    display: flex;
-    align-items: unset;
-    gap: 42px;
-}
-#airport,#airport1,#airport2,#airport3,#airport4,#airport5{
-    width: 244px;
-    height: 36px;
-    font-size: 18px
-}  
-#airport4{  
-margin-top: 22%;
-}
-.flight1
-{
-    display: flex;
-
-    justify-content: space-between;
-}
-.flight2{
-    display: flex;
-    align-items: center;
-    gap: 9px;
-}
-#payementwork{
-    display: flex;
-    align-items: center;
-    display: flex;
-    gap: 8px;
-}
-/* Dropdown */
-.dropdown {
-    display: inline-block;
-    position: relative;
-    width: 244px;
-    height: 36px;
-    font-size: 18px
-  }
-  .dropdown-content {
-    text-align: center;
-    display: none;
-    padding: 20px 0px;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    /* box-shadow: 
-     /* box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);  */
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
-    text-decoration: none;
-  }
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-  }
-  .range{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  .range h5{
-    margin: 0;
-  }
-  
